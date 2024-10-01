@@ -1,15 +1,14 @@
 
 import './App.css'
-import Producttab from './Producttab';
-
-
-
+import Likebutton from './Likebutton'
 function App() {
- return (
-  <>
-  <h1>Blocbuster deals | shop now</h1>
-  <Producttab/>
-  </>
- )
+
+  return (
+    <div>
+      <p>States in React</p>
+      <Likebutton />
+    </div>
+  )
 }
+
 export default App
